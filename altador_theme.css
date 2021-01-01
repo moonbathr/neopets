@@ -1,6 +1,6 @@
 body {
+    background-image:url("https://i.imgur.com/8TCeVcT.png");
     background-color:#f5f4f4;
-    background-image:url();
     background-size:200px 200px;
     background-position:center;
 }
@@ -309,10 +309,16 @@ input.topicReplySubmit:hover, .topicCreateSubmit:hover {
   color: #585858 !important; 
 }
 
-/* Misc */
+/* Popups */
 .popup-header__2020 {
   background-color: #63c0b1;
 }
 .popup-header-pattern__2020 {
+  display: none;
+}
+.popup-footer__2020 {
+  background-color: #63c0b1;
+}
+.popup-footer-pattern__2020 {
   display: none;
 }
