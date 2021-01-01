@@ -223,10 +223,6 @@ body {
 }
 
 /* Boards */
-div.container.theme-bg {
-  background-color: transparent;
-}
-
 #boardIndex, #boardList, #boardTopic {
   border-radius: 15px;
   padding: 10px;
