@@ -223,24 +223,43 @@ body {
 }
 
 /* Boards */
+div.container.theme-bg {
+  background-color: transparent;
+}
+
+#boardIndex, #boardList, #boardTopic {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+#boardCreateTopic {
+   border-radius: 15px;
+   border: none;
+   background-color: white;
+ }
+#boardList ul .pageNav .boardPageButton, #boardTopic .pageNav .boardPageButton {
+  color: #407c72;
+}
+#boardList ul .pageNav .boardPageButton-active, #boardTopic .pageNav .boardPageButton-active {
+  background-color: #7c9f99;
+}
 .topicReplyContainer table, #boardCreateTopic table {
     border: 0px !important;
     font-family: verdana;
     font-size: 10px;
     text-transform: lowercase;
 }
-
 .postAuthorPetIcon img {
   border: 0px !important;
   border-radius: 3px;
 }
-
 div.replyTopicButton-top {
   background-color: #7ccabd;
   border: 0px;
   padding-bottom: 10px;
 }
-
 div.replyTopicButton-top:hover {
   color: white;
   background-color: #63c0b1;
@@ -248,12 +267,10 @@ div.replyTopicButton-top:hover {
 div.topicReplyTitle, #boardCreateTopic h1 {
   background-color: #a3d2ca
 }
-
 div a span {
   font-family: Calibri;
   font-size: 15px;
 }
-
 input.topicReplySubmit, .topicCreateSubmit {
   background-color: #7ccabd;
   border: 0px;
@@ -261,27 +278,22 @@ input.topicReplySubmit, .topicCreateSubmit {
   margin-bottom: 10px;
 
 }
-
 input.topicReplySubmit:hover, .topicCreateSubmit:hover {
   background-color: #63c0b1;
   color: white;
 }
-
 .createTopicButton a {
   background-color: #7ccabd;
   border: 0px;
   padding-bottom: 10px;
-
 }
 .createTopicButton a:hover {
   background-color: #63c0b1;
   color: white;
 }
-
 #boardIndex ul h3 {
   background-color: #79afa6;
 }
-
 .reportButton-neoboards { 
   border: 0px !important;
   text-transform: uppercase;
