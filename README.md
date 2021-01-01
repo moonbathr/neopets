@@ -1,0 +1,2 @@
+# neopets
+scripts for neopets
