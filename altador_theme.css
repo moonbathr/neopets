@@ -1,0 +1,306 @@
+body {
+    background-color:#f5f4f4;
+    background-image:url();
+    background-size:200px 200px;
+    background-position:center;
+}
+
+/* Customize Nav Bar */
+.nav-top__2020 {
+    background-color: transparent !important;
+    background-image: url("http://i.imgur.com/Vh45YfH.png") !important;
+    background-position-y: 15%;
+	  border-bottom: 3px solid #a3d2ca;
+}
+.nav-top-pattern__2020 {  
+    display: none; 
+}
+.nav-bottom__2020 {
+	  background: #3c7339;
+	  border-top: 3px solid #a3d2ca;
+}
+.nav-text__2020,
+.nav-text-bottom__2020 {
+  	color: #000;
+	  font-family: "Cafeteria", 'Arial Bold', sans-serif;
+	  text-align: center;
+}
+
+/* FOOTER */
+.footer__2020 {
+	  background-color: transparent !important;
+    background-image: url("http://i.imgur.com/Vh45YfH.png") !important;
+    background-position-y: 50%;
+	  border-top: 3px solid #a3d2ca;
+}
+.footer-pattern__2020 {
+	  display: none;
+}
+.footer-logo__2020 {
+	  background-image: url();
+}
+.footer-copyright__2020 {
+	  font-size: 10pt;
+	  font-family: "MuseoSansRounded700", 'Arial Bold', sans-serif;
+	  color: #ffffff;
+}
+.footer-link__2020 {
+	  font-family: "Cafeteria", 'Arial Bold', sans-serif;
+	  color: #000;
+}
+.footer__2020 a {
+	  color: #ffffff;
+}
+/* News Dropdown Styling */
+
+#navnewsdropdown__2020 {
+    background: #8abab2;
+}
+
+.news-tab-content__2020,
+.alerts-tab-content__2020,
+.tabActive__2020,
+.news-tab-viewall__2020,
+.alerts-tab-viewall__2020 {
+    background: #a3d2ca;
+}
+
+.tabHidden__2020 {
+    background: #7c9f99;
+}
+
+.news-dropdown-text__2020 {
+    color: #ffffff;
+    font-family: "Cafeteria", 'Arial Bold', sans-serif;
+    font-size: 18pt;
+}
+
+.news-tab-icon__2020 {
+    background: #7c9f99;
+}
+
+.alerts-tab-icon__2020 {
+    background-image: url(../basic/images/v3/bell-icon.svg);
+    background-size: contain;
+}
+
+#alerts-notif__2020,
+#news-notif__2020 {
+    color: #fff;
+    background: #E1191D;
+}
+
+#newstab__2020 ul li {
+    border-bottom: 2px solid #7c9f99;
+    font-family: calibri;
+}
+
+#newstab__2020 ul li h4 {
+    color: #000;
+}
+
+
+/* Alerts dropdown styling */
+
+#alertstab__2020 ul li {
+    border: 2px solid #a3d2ca;
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 0px 0px rgb(90, 124, 139);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(90, 124, 13);
+    box-shadow: 0px 3px 0px 0px rgba(90, 124, 13);
+}
+
+
+/*PROFILE MENU DROPDOWN*/
+
+.dropdown-triangle-up__2020 {
+    border-bottom: 13px solid #a3d2ca;
+    /*The color of the dropdown tail should match the bottom border color for this theme.*/
+}
+
+.nav-profile-dropdown__2020 {
+    background: #a3d2ca;
+}
+
+.nav-profile-dropdown__2020 ul li:hover {
+    background: #7ccabd;
+}
+
+.nav-profile-pet-box-lg__2020,
+.nav-profile-pet-sm__2020,
+.nav-pet-menu-icon__2020 {
+    background-color: #a3d2ca;
+}
+
+.nav-profile-pet-box-sm__2020 {
+    border: 2px solid #a3d2ca;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(47, 92, 45, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(47, 92, 45, 1);
+    box-shadow: 0px 3px 0px 0px rgba(47, 92, 45, 1);
+}
+
+#navProfilePetExpandIcon__2020 {
+    background-color: #a3d2ca;
+}
+
+.nav-profile-dropdown-text {
+    font-family: "MuseoSansRounded700", 'Arial', sans-serif;
+    color: #ffffff;
+    font-size: 11pt;
+}
+
+.nav-profile-dropdown-text a {
+    color: #265664;
+}
+
+.nav-profile-dropdown__2020 ul li {
+    color: #ffffff;
+    font-family: "Cafeteria", 'Arial Bold', sans-serif;
+    font-size: 18pt;
+}
+
+
+/* Community Dropdown */
+
+#communitydropdown__2020,
+#communitydropdownbottom__2020,
+#shopdropdown__2020,
+#shopdropdownbottom__2020 {
+    background-color: #a3d2ca;
+    color: #ffffff;
+    border: 2px solid #a3d2ca;
+}
+
+#communitydropdown__2020 ul li,
+#communitydropdownbottom__2020 ul li,
+#shopdropdown__2020 ul li,
+#shopdropdownbottom__2020 ul li,
+#communitydropdown__2020 .neofriendsOnline,
+#communitydropdownbottom__2020 .neofriendsOnline {
+    border-bottom: 2px solid #a3d2ca;
+}
+
+#communitydropdown__2020 ul li:hover,
+#communitydropdownbottom__2020 ul li:hover,
+#shopdropdown__2020 ul li:hover,
+#shopdropdownbottom__2020 ul li:hover {
+    background-color: #7ccabd;
+}
+
+#communitydropdown__2020 a:visited,
+#communitydropdownbottom__2020 a:visited,
+#communitydropdown__2020 a,
+#communitydropdownbottom__2020 a,
+#shopdropdown__2020 a:visited,
+#shopdropdownbottom__2020 a:visited,
+#shopdropdown__2020 a,
+#shopdropdownbottom__2020 a {
+    color: #ffffff;
+}
+
+#shopdropdown__2020 h3,
+#shopdropdownbottom__2020 h3 {
+    color: #a3d2ca;
+}
+
+#shopdropdown__2020 .shopdropdown-tabs,
+#shopdropdownbottom__2020 .shopdropdown-tabs {
+    background-color: #8abab2;
+}
+
+#shopdropdown__2020 .shopdropdown-tab-active,
+#shopdropdownbottom__2020 .shopdropdown-tab-active {
+    background-color: #a3d2ca;
+}
+
+#shopdropdown__2020 .shopdropdown-tab-active h3,
+#shopdropdownbottom__2020 .shopdropdown-tab-active h3 {
+    color: #ffffff;
+}
+
+.communitydropdown-social {
+  display: none;
+}
+
+/* Boards */
+.topicReplyContainer table, #boardCreateTopic table {
+    border: 0px !important;
+    font-family: verdana;
+    font-size: 10px;
+    text-transform: lowercase;
+}
+
+.postAuthorPetIcon img {
+  border: 0px !important;
+  border-radius: 3px;
+}
+
+div.replyTopicButton-top {
+  background-color: #7ccabd;
+  border: 0px;
+  padding-bottom: 10px;
+}
+
+div.replyTopicButton-top:hover {
+  color: white;
+  background-color: #63c0b1;
+}
+div.topicReplyTitle, #boardCreateTopic h1 {
+  background-color: #a3d2ca
+}
+
+div a span {
+  font-family: Calibri;
+  font-size: 15px;
+}
+
+input.topicReplySubmit, .topicCreateSubmit {
+  background-color: #7ccabd;
+  border: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+}
+
+input.topicReplySubmit:hover, .topicCreateSubmit:hover {
+  background-color: #63c0b1;
+  color: white;
+}
+
+.createTopicButton a {
+  background-color: #7ccabd;
+  border: 0px;
+  padding-bottom: 10px;
+
+}
+.createTopicButton a:hover {
+  background-color: #63c0b1;
+  color: white;
+}
+
+#boardIndex ul h3 {
+  background-color: #79afa6;
+}
+
+.reportButton-neoboards { 
+  border: 0px !important;
+  text-transform: uppercase;
+  font-size: 9px !important;
+  color: #999 !important;
+  width: 50px;
+  height: 20px;
+  margin-bottom: 0px;
+  overflow: hidden; 
+}
+.reportButton-neoboards:hover {
+  background-color: transparent !important;
+  color: #585858 !important; 
+}
+
+/* Misc */
+.popup-header__2020 {
+  background-color: #63c0b1;
+}
+.popup-header-pattern__2020 {
+  display: none;
+}
