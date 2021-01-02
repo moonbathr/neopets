@@ -8,8 +8,9 @@ body {
 /* Customize Nav Bar */
 .nav-top__2020 {
     background-color: transparent !important;
-    background-image: url("http://i.imgur.com/Vh45YfH.png") !important;
-    background-position-y: 15%;
+    background-image: url("https://imagizer.imageshack.com/v2/1582x890q90/r/923/4sAEI7.png") !important;
+    background-size: 100%;
+    background-position-y: 45%;
 	  border-bottom: 3px solid #a3d2ca;
 }
 .nav-top-pattern__2020 {  
@@ -29,8 +30,8 @@ body {
 /* FOOTER */
 .footer__2020 {
 	  background-color: transparent !important;
-    background-image: url("http://i.imgur.com/Vh45YfH.png") !important;
-    background-position-y: 50%;
+    background-image: url("https://imagizer.imageshack.com/v2/1582x890q90/r/923/4sAEI7.png") !important;
+    background-position-y: 70%;
 	  border-top: 3px solid #a3d2ca;
 }
 .footer-pattern__2020 {
@@ -241,6 +242,8 @@ body {
 #boardList ul .pageNav .boardPageButton-active, #boardTopic .pageNav .boardPageButton-active {
   background-color: #7c9f99;
 }
+
+
 .topicReplyContainer table, #boardCreateTopic table {
     border: 0px !important;
     font-family: verdana;
