@@ -125,6 +125,7 @@ body {
 
 .nav-profile-dropdown__2020 ul li:hover {
     background: #7ccabd;
+    transition: .2s;
 }
 
 .nav-profile-pet-box-lg__2020,
@@ -185,6 +186,7 @@ body {
 #communitydropdownbottom__2020 ul li:hover,
 #shopdropdown__2020 ul li:hover,
 #shopdropdownbottom__2020 ul li:hover {
+    transition: .2s;
     background-color: #7ccabd;
 }
 
@@ -242,8 +244,6 @@ body {
 #boardList ul .pageNav .boardPageButton-active, #boardTopic .pageNav .boardPageButton-active {
   background-color: #7c9f99;
 }
-
-
 .topicReplyContainer table, #boardCreateTopic table {
     border: 0px !important;
     font-family: verdana;
@@ -307,7 +307,24 @@ input.topicReplySubmit:hover, .topicCreateSubmit:hover {
   background-color: transparent !important;
   color: #585858 !important; 
 }
-
+div.boardPost {
+  position: relative;
+}
+.reportButton-neoboards { 
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.neoBoardPenTitle {
+  display: none;
+}
+.neoboardPens {
+  margin-top: -10px;
+  font-size: 13px;
+  text-transform: lowercase;
+  max-width: 600px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
 /* Popups */
 .popup-header__2020 {
   background-color: #63c0b1;
