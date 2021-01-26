@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neopets: Neoboard Bookmarks
 // @version      1.3.0
-// @author       sunbathr
+// @author       sunbathr & rawbeee
 // @description  Neoboard bookmarks for boards and threads
 // @match        http://www.neopets.com/neoboards/*
 // @require      http://code.jquery.com/jquery-latest.js
