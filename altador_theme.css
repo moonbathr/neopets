@@ -1,230 +1,235 @@
+
 body {
     background-image:url("https://i.imgur.com/8TCeVcT.png");
     background-color:#f5f4f4;
-    background-size:200px 200px;
-    background-position:center;
 }
-
-/* Customize Nav Bar */
 .nav-top__2020 {
     background-color: transparent !important;
     background-image: url("https://imagizer.imageshack.com/v2/1582x890q90/r/923/4sAEI7.png") !important;
     background-size: 100%;
     background-position-y: 45%;
-	  border-bottom: 3px solid #a3d2ca;
+      border-bottom: 3px solid #a3d2ca;
 }
-.nav-top-pattern__2020 {  
-    display: none; 
+.nav-text__2020 {
+  text-shadow: 0px 0px 5px white, 0 0 3px white;
+}
+.nav-top-pattern__2020 {
+    display: none;
 }
 .nav-bottom__2020 {
-	  background: #3c7339;
-	  border-top: 3px solid #a3d2ca;
+  background-color: transparent;
+    background:#fed123;
+    border-top: 3px solid #a3d2ca;
 }
-.nav-text__2020,
-.nav-text-bottom__2020 {
-  	color: #000;
-	  font-family: "Cafeteria", 'Arial Bold', sans-serif;
-	  text-align: center;
+.nav-bottom-pattern__2020 {
+    display: none;
+}
+.nav-text__2020,.nav-text-bottom__2020 {
+    color: #1a3b35;
+    font-family: "Cafeteria", 'Arial Bold', sans-serif;
+    text-align:center;
+}
+
+/*PROFILE MENU DROPDOWN*/
+.dropdown-triangle-up__2020 {
+    border-bottom:13px solid #a3d2ca; 
+}
+.nav-profile-dropdown__2020 {
+    background:#a3d2ca;
+}
+.nav-profile-dropdown__2020::-webkit-scrollbar, .news-tab-content__2020::-webkit-scrollbar, .alerts-tab-content__2020::-webkit-scrollbar {
+  display: none !important;
+}
+.nav-profile-pet-box-lg__2020, .nav-profile-pet-sm__2020, .nav-pet-menu-icon__2020 {
+    background-color:#a3d2ca;
+}
+.nav-profile-pet-box-lg__2020 {
+  border-radius: 3px;
+  overflow: hidden
+}
+.nav-profile-pet-box-sm__2020 {
+    border:2px solid #a3d2ca;
+    -webkit-box-shadow: 0px 0px 0px 0px;
+}
+#navProfilePetExpandIcon__2020 {
+    background-color:#a3d2ca;
+}
+.nav-calendar-icon__2020 {
+  display: inline;
+  margin-left: 40px;
+  margin-right: -60px;
+}
+.nav-profile-dropdown-text {
+    font-family: "Lato", 'Arial', sans-serif;
+    letter-spacing: 1px;
+    color:#235048;
+    font-size:11pt;
+    text-align: center;
+    margin-left: -20px;
+}
+.nav-profile-dropdown-text a {
+    color:#fff;
+}
+.nav-profile-dropdown__2020 ul li {
+    color: #235048;
+    font-family: "Cafeteria", 'Arial Bold', sans-serif;
+    font-size:18pt;
+}
+.nav-profile-dropdown__2020 ul a {
+    color: #235048;
+}
+
+/* News Dropdown Styling */
+#navnewsdropdown__2020 {
+    background:#88beb5;
+}
+.news-tab-content__2020,.alerts-tab-content__2020,.tabActive__2020,.news-tab-viewall__2020,.alerts-tab-viewall__2020 {
+    background:#a3d2ca;
+}
+.news-tab-content__2020,.alerts-tab-content__2020 {
+  font-family: Calibri;
+  line-height: 20px;
+  padding: 10px;
+}
+#newstab__2020 ul li p {
+  font-size: 15px;
+}
+.news-dropdown-text__2020 {
+    color: #235048;
+    font-family: "Cafeteria", 'Arial Bold', sans-serif;
+    font-size:18pt;
+}
+.news-tab-icon__2020 {
+    background:#767676;
+}
+#alerts-notif__2020,#news-notif__2020 {
+    color:#fff;
+    background:#E1191D;
+}
+.nf-img__2020 {
+  border-radius: 5px !important;
+}
+#newstab__2020 ul li {
+padding-bottom: 20px;
+    border-bottom: 1px solid #88beb5;
+    font-fize: 10px;
+}
+#newstab__2020 ul li h4 {
+    color:#1a3b35;
+}
+#newstab__2020 ul li a, #newstab__2020 ul li a:visited {
+  color: #ffffff;
+  font-size: 14px;
+}
+/* Alerts dropdown styling */
+#alertstab__2020 ul li {
+    border: 2px solid #BFB89E;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(191,184,158,1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(191,184,158,1);
+    box-shadow: 0px 3px 0px 0px rgba(191,184,158,1);
+}
+
+/* Neofriends Notification */
+.nav-neofriends-dot__2020 {
+    color:#fff;
+    font-family: "MuseoSansRounded700", 'Arial Bold', sans-serif;
+    background:#1AB41F;
 }
 
 /* FOOTER */
 .footer__2020 {
-	  background-color: transparent !important;
+      background-color: transparent !important;
     background-image: url("https://imagizer.imageshack.com/v2/1582x890q90/r/923/4sAEI7.png") !important;
-    background-position-y: 70%;
-	  border-top: 3px solid #a3d2ca;
+    background-position-y: 60%;
+      border-top: 3px solid #a3d2ca;
+    text-shadow: 0px 0px 5px white;
 }
 .footer-pattern__2020 {
-	  display: none;
-}
-.footer-logo__2020 {
-	  background-image: url();
-}
-.footer-copyright__2020 {
-	  font-size: 10pt;
-	  font-family: "MuseoSansRounded700", 'Arial Bold', sans-serif;
-	  color: #ffffff;
-}
-.footer-link__2020 {
-	  font-family: "Cafeteria", 'Arial Bold', sans-serif;
-	  color: #000;
-}
-.footer__2020 a {
-	  color: #ffffff;
-}
-/* News Dropdown Styling */
-
-#navnewsdropdown__2020 {
-    background: #8abab2;
+      display: none;
 }
 
-.news-tab-content__2020,
-.alerts-tab-content__2020,
-.tabActive__2020,
-.news-tab-viewall__2020,
-.alerts-tab-viewall__2020 {
-    background: #a3d2ca;
-}
-
-.tabHidden__2020 {
-    background: #7c9f99;
-}
-
-.news-dropdown-text__2020 {
-    color: #ffffff;
+/* Some Default styling for popups. Can/should be overridden on a case by case basis. */
+.popup-header__2020 { 
+    position:relative;
+    text-align:center;
     font-family: "Cafeteria", 'Arial Bold', sans-serif;
-    font-size: 18pt;
+    padding:10px 0;
+    border-radius: 15px 15px 0 0;
+    background:#a3d2ca;
+    z-index:0; /* Ensures that pattern within this div will appear in front of background but behind other interior elements. */
 }
-
-.news-tab-icon__2020 {
-    background: #7c9f99;
+.popup-header__2020 h3 {
+    color: #363636;
+    font-size:20pt;
+    max-width:90%;
+    margin: 0 auto;
 }
-
-.alerts-tab-icon__2020 {
-    background-image: url(../basic/images/v3/bell-icon.svg);
-    background-size: contain;
+.popup-header-pattern__2020,.popup-footer-pattern__2020 {
+    display: none;
 }
-
-#alerts-notif__2020,
-#news-notif__2020 {
-    color: #fff;
-    background: #E1191D;
+.popup-body__2020 {
+    position:relative;
+    overflow:auto;
+    background:#fff;
+    text-align:center;
+    font-family: "MuseoSansRounded500", 'Arial', sans-serif;
+    padding:20px 0;
+    /* max-height: calc(70vh - 60px); */
 }
-
-#newstab__2020 ul li {
-    border-bottom: 2px solid #7c9f99;
-    font-family: calibri;
+.popup-footer__2020 {
+    position:relative;
+    border-radius: 0 0 15px 15px;
+    background:#a3d2ca;
+    padding:10px;
+    z-index:0; /* Ensures that pattern within this div will appear in front of background but behind other interior elements. */
 }
-
-#newstab__2020 ul li h4 {
-    color: #000;
-}
-
-
-/* Alerts dropdown styling */
-
-#alertstab__2020 ul li {
-    border: 2px solid #a3d2ca;
-    background-color: white;
-    -webkit-box-shadow: 0px 3px 0px 0px rgb(90, 124, 139);
-    -moz-box-shadow: 0px 3px 0px 0px rgba(90, 124, 13);
-    box-shadow: 0px 3px 0px 0px rgba(90, 124, 13);
-}
-
-
-/*PROFILE MENU DROPDOWN*/
-
-.dropdown-triangle-up__2020 {
-    border-bottom: 13px solid #a3d2ca;
-    /*The color of the dropdown tail should match the bottom border color for this theme.*/
-}
-
-.nav-profile-dropdown__2020 {
-    background: #a3d2ca;
-}
-
-.nav-profile-dropdown__2020 ul li:hover {
-    background: #7ccabd;
-    transition: .2s;
-}
-
-.nav-profile-pet-box-lg__2020,
-.nav-profile-pet-sm__2020,
-.nav-pet-menu-icon__2020 {
-    background-color: #a3d2ca;
-}
-
-.nav-profile-pet-box-sm__2020 {
-    border: 2px solid #a3d2ca;
-    -webkit-box-shadow: 0px 3px 0px 0px rgba(47, 92, 45, 1);
-    -moz-box-shadow: 0px 3px 0px 0px rgba(47, 92, 45, 1);
-    box-shadow: 0px 3px 0px 0px rgba(47, 92, 45, 1);
-}
-
-#navProfilePetExpandIcon__2020 {
-    background-color: #a3d2ca;
-}
-
-.nav-profile-dropdown-text {
-    font-family: "MuseoSansRounded700", 'Arial', sans-serif;
-    color: #ffffff;
-    font-size: 11pt;
-}
-
-.nav-profile-dropdown-text a {
-    color: #265664;
-}
-
-.nav-profile-dropdown__2020 ul li {
-    color: #ffffff;
-    font-family: "Cafeteria", 'Arial Bold', sans-serif;
-    font-size: 18pt;
-}
-
 
 /* Community Dropdown */
 
-#communitydropdown__2020,
-#communitydropdownbottom__2020,
-#shopdropdown__2020,
-#shopdropdownbottom__2020 {
-    background-color: #a3d2ca;
-    color: #ffffff;
-    border: 2px solid #a3d2ca;
+#communitydropdown__2020, #communitydropdownbottom__2020, #shopdropdown__2020, #shopdropdownbottom__2020 {
+    background-color:#a3d2ca;
+    color:#363636;
+    border:2px solid #a3d2ca;
 }
-
-#communitydropdown__2020 ul li,
-#communitydropdownbottom__2020 ul li,
-#shopdropdown__2020 ul li,
-#shopdropdownbottom__2020 ul li,
-#communitydropdown__2020 .neofriendsOnline,
-#communitydropdownbottom__2020 .neofriendsOnline {
-    border-bottom: 2px solid #a3d2ca;
+#communitydropdown__2020 ul li, #communitydropdownbottom__2020 ul li, #shopdropdown__2020 ul li, #shopdropdownbottom__2020 ul li, #communitydropdown__2020 .neofriendsOnline, #communitydropdownbottom__2020 .neofriendsOnline, .nav-profile-dropdown__2020 ul li, .nav-profile-dropdown-clock__2020 {
+    border: none;
 }
-
-#communitydropdown__2020 ul li:hover,
-#communitydropdownbottom__2020 ul li:hover,
-#shopdropdown__2020 ul li:hover,
-#shopdropdownbottom__2020 ul li:hover {
-    transition: .2s;
-    background-color: #7ccabd;
+.profile-dropdown-subsection {
+  background-color:#a3d2ca
 }
-
-#communitydropdown__2020 a:visited,
-#communitydropdownbottom__2020 a:visited,
-#communitydropdown__2020 a,
-#communitydropdownbottom__2020 a,
-#shopdropdown__2020 a:visited,
-#shopdropdownbottom__2020 a:visited,
-#shopdropdown__2020 a,
-#shopdropdownbottom__2020 a {
-    color: #ffffff;
+#communitydropdown__2020 ul li:hover, #communitydropdownbottom__2020 ul li:hover, #shopdropdown__2020 ul li:hover, #shopdropdownbottom__2020 ul li:hover, .nav-profile-dropdown__2020 ul li:hover, .profile-dropdown-subsection:hover {
+    background-color:#7ccabd;
+    transition: .3s;
 }
-
-#shopdropdown__2020 h3,
-#shopdropdownbottom__2020 h3 {
-    color: #a3d2ca;
+#communitydropdown__2020 a:visited, #communitydropdownbottom__2020 a:visited, #communitydropdown__2020 a, #communitydropdownbottom__2020 a, #shopdropdown__2020 a:visited, #shopdropdownbottom__2020 a:visited, #shopdropdown__2020 a, #shopdropdownbottom__2020 a {
+    color:#235048;
 }
-
-#shopdropdown__2020 .shopdropdown-tabs,
-#shopdropdownbottom__2020 .shopdropdown-tabs {
-    background-color: #8abab2;
+#shopdropdown__2020 h3, #shopdropdownbottom__2020 h3 {
+    color:#235048;
 }
-
-#shopdropdown__2020 .shopdropdown-tab-active,
-#shopdropdownbottom__2020 .shopdropdown-tab-active {
-    background-color: #a3d2ca;
+#shopdropdown__2020 .shopdropdown-tabs, #shopdropdownbottom__2020 .shopdropdown-tabs {
+    background-color:#8abab2;
 }
-
-#shopdropdown__2020 .shopdropdown-tab-active h3,
-#shopdropdownbottom__2020 .shopdropdown-tab-active h3 {
-    color: #ffffff;
+#shopdropdown__2020 .shopdropdown-tab-active, #shopdropdownbottom__2020 .shopdropdown-tab-active {
+    color:#235048;
+    background-color:#a3d2ca;
 }
-
 .communitydropdown-social {
   display: none;
 }
-
+.community-dropdown-text  h4, #shopdropdown__2020 h4 {
+  font-family: Cafeteria;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.neofriendsOnline {
+  overflow: hidden !important;
+}
+.neofriendsOnline:hover {
+  overflow-x: auto;
+}
 /* Boards */
 #boardIndex, #boardList, #boardTopic {
   border-radius: 15px;
@@ -232,7 +237,6 @@ body {
   background-color: white;
   border: none;
 }
-
 #boardCreateTopic {
    border-radius: 15px;
    border: none;
@@ -325,16 +329,26 @@ div.boardPost {
   max-width: 600px;
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
-/* Popups */
-.popup-header__2020 {
-  background-color: #63c0b1;
+.boardDesc h4, .breadcrumbs a, .breadcrumbs a:visited, .postAuthorName, .postPetInfo h4 a {
+  color: #638f88;
 }
-.popup-header-pattern__2020 {
-  display: none;
+.boardTopicTitle {
+  color: #235048;
 }
-.popup-footer__2020 {
-  background-color: #63c0b1;
+.boardPageButton:hover {
+  background-color: #7c9f99;
+  border: 1px solid #7c9f99;
+  color: white !important;
 }
-.popup-footer-pattern__2020 {
+
+/* homepage */
+.hp-bg-top__2020 {
+    height: 40%;
+    background-image: url(https://imagizer.imageshack.com/v2/1582x890q90/r/923/4sAEI7.png);
+    overflow: hidden;
+    background-size: 100% ;
+    background-position-y: 30%;
+}
+.hp-bg-obj__2020 {
   display: none;
 }
