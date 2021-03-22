@@ -330,7 +330,7 @@ div.boardPost {
   font-size: 13px;
   text-transform: lowercase;
   max-width: 600px;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .boardDesc h4, .breadcrumbs a, .breadcrumbs a:visited, .postAuthorName, .postPetInfo h4 a {
   color: #638f88;
