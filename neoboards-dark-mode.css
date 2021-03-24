@@ -1,0 +1,454 @@
+
+body {
+    background-image:url("");
+    background-color:#191919;
+}
+div.container.theme-bg {
+  background-color: #191919;
+}
+.nav-top__2020 {
+    background-color: #222222;
+    
+    background-size: 100%;
+    background-position-y: 45%;
+      border-bottom: 3px solid #191919;
+}
+.nav-top-pattern__2020 {
+    display: none;
+}
+.nav-bottom__2020 {
+  background-color: transparent;
+    border-top: 3px solid #121212;
+}
+.nav-bottom-pattern__2020 {
+    display: none;
+}
+.nav-text__2020,.nav-text-bottom__2020 {
+    color: #dfdfdf;
+    font-family: "calibri", 'Arial Bold', sans-serif;
+    text-align:center;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navsub-np-meter__2020, .navsub-nc-meter__2020 {
+  background: transparent;
+}
+.np-text__2020, .nc-text__2020 {
+  color: #999;
+}
+/*PROFILE MENU DROPDOWN*/
+.dropdown-triangle-up__2020 {
+    border-bottom:0px solid #121212; 
+}
+.nav-profile-dropdown__2020 {
+    background:#222222;
+}
+.nav-profile-dropdown__2020::-webkit-scrollbar, .news-tab-content__2020::-webkit-scrollbar, .alerts-tab-content__2020::-webkit-scrollbar {
+  display: none !important;
+}
+.nav-profile-pet-box-lg__2020, .nav-profile-pet-sm__2020, .nav-pet-menu-icon__2020 {
+    background-color:#222222;
+}
+.nav-profile-pet-box-lg__2020 {
+  border-radius: 3px;
+  overflow: hidden
+}
+.nav-profile-pet-box-sm__2020 {
+    border:2px solid #222222;
+    -webkit-box-shadow: 0px 0px 0px 0px;
+}
+#navProfilePetExpandIcon__2020 {
+    background-color:#222222;
+}
+.nav-calendar-icon__2020 {
+  display: inline;
+  margin-left: 40px;
+  margin-right: -60px;
+}
+.nav-profile-dropdown-text {
+    font-family: "calibri", 'Arial', sans-serif;
+    letter-spacing: 1px;
+    color:#839496;
+    font-size:11pt;
+    text-align: center;
+    margin-left: -20px;
+}
+.nav-profile-dropdown-text a {
+    color:#dfdfdf;
+}
+.nav-profile-dropdown__2020 ul li h3 {
+    color: #dfdfdf;
+    font-family: "calibri", 'Arial Bold', sans-serif;
+    font-size:15px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+}
+.nav-profile-dropdown__2020 ul a {
+    color: #235048;
+}
+.nav-top__2020 .nav-top-nst {
+  background: transparent;
+  border: 0px;
+  color: #999;
+}
+
+/* News Dropdown Styling */
+#navnewsdropdown__2020 {
+    background:#191919;
+}
+.news-tab-content__2020,.alerts-tab-content__2020,.tabActive__2020,.news-tab-viewall__2020,.alerts-tab-viewall__2020 {
+    background:#222;
+}
+.news-tab-content__2020,.alerts-tab-content__2020 {
+  font-family: Calibri;
+  line-height: 20px;
+  padding: 10px;
+}
+#newstab__2020 ul li p {
+  font-size: 15px;
+}
+.news-dropdown-text__2020 {
+    color: #dfdfdf;
+    font-family: "calibri", 'Arial Bold', sans-serif;
+    font-size:18pt;
+}
+.news-tab-icon__2020 {
+    background:#767676;
+}
+#alerts-notif__2020,#news-notif__2020 {
+    color:#dfdfdf;
+    background:#E1191D;
+}
+.nf-img__2020 {
+  border-radius: 5px !important;
+}
+#newstab__2020 ul li {
+padding-bottom: 20px;
+    border-bottom: 1px solid #191919;
+    font-fize: 10px;
+}
+#newstab__2020 ul li h4 {
+    color:#dfdfdf;
+}
+#newstab__2020 ul li a, #newstab__2020 ul li a:visited {
+  color: #dfdfdf;
+  font-size: 14px;
+}
+/* Alerts dropdown styling */
+#alertstab__2020 ul li {
+    border-top: 0px solid #BFB89E;
+    border-left: 0px solid #BFB89E;
+    border-right: 0px solid #BFB89E;
+    border-bottom: 0px solid #407c72;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(191,184,158,1);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(191,184,158,1);
+    box-shadow: 0px 0px 0px 0px rgba(191,184,158,1);
+    color: #dfdfdf;
+    background-color: #121212;
+}
+
+/* Neofriends Notification */
+.nav-neofriends-dot__2020 {
+    color:#dfdfdf;
+    font-family: "Calibri", 'Arial Bold', sans-serif;
+    background:#1AB41F;
+}
+
+/* FOOTER */
+.footer__2020 {
+      background-color: #222222;
+    background-image: url("");
+    background-position-y: 60%;
+      border-top: 3px solid #191919;
+      color: #dfdfdf;
+      display: none;
+}
+.footer-pattern__2020 {
+      display: none;
+}
+
+/* Some Default styling for popups. Can/should be overridden on a case by case basis. */
+.popup-header__2020 { 
+    position:relative;
+    text-align:center;
+    font-family: "Cafeteria", 'Arial Bold', sans-serif;
+    padding:10px 0;
+    border-radius: 15px 15px 0 0;
+    background:#191919;
+    z-index:0; /* Ensures that pattern within this div will appear in front of background but behind other interior elements. */
+}
+.popup-header__2020 h3 {
+    color: #dfdfdf;
+    font-family: calibri;
+    font-size:20pt;
+    max-width:90%;
+    margin: 0 auto;
+}
+.popup-header-pattern__2020,.popup-footer-pattern__2020 {
+    display: none;
+}
+.popup-body__2020 {
+    position:relative;
+    overflow:auto;
+    background:#222222;
+    text-align:center;
+    color: #ededed;
+    font-family: "calibri", 'Arial', sans-serif;
+    padding:20px 0;
+    /* max-height: calc(70vh - 60px); */
+}
+.popup-footer__2020 {
+    position:relative;
+    border-radius: 0 0 15px 15px;
+    background:#191919;
+    padding:10px;
+    z-index:0; /* Ensures that pattern within this div will appear in front of background but behind other interior elements. */
+}
+
+/* Community Dropdown */
+
+#communitydropdown__2020, #communitydropdownbottom__2020, #shopdropdown__2020, #shopdropdownbottom__2020 {
+    background-color:#222222;
+    color:#dfdfdf;
+    border:2px solid #222222;
+}
+#communitydropdown__2020 ul li, #communitydropdownbottom__2020 ul li, #shopdropdown__2020 ul li, #shopdropdownbottom__2020 ul li, #communitydropdown__2020 .neofriendsOnline, #communitydropdownbottom__2020 .neofriendsOnline, .nav-profile-dropdown__2020 ul li, .nav-profile-dropdown-clock__2020 {
+    border: none;
+}
+.profile-dropdown-subsection {
+  background-color:#222;
+  font-family: calibri;
+  color: #dfdfdf;
+}
+#communitydropdown__2020 ul li:hover, #communitydropdownbottom__2020 ul li:hover, #shopdropdown__2020 ul li:hover, #shopdropdownbottom__2020 ul li:hover, .nav-profile-dropdown__2020 ul li:hover, .profile-dropdown-subsection:hover {
+    background-color:#191919;
+    transition: .7s;
+}
+#communitydropdown__2020 a:visited, #communitydropdownbottom__2020 a:visited, #communitydropdown__2020 a, #communitydropdownbottom__2020 a, #shopdropdown__2020 a:visited, #shopdropdownbottom__2020 a:visited, #shopdropdown__2020 a, #shopdropdownbottom__2020 a {
+    color:#dfdfdf;
+}
+#shopdropdown__2020 h3, #shopdropdownbottom__2020 h3 {
+    color:#dfdfdf;
+}
+#shopdropdown__2020 .shopdropdown-tabs, #shopdropdownbottom__2020 .shopdropdown-tabs {
+    background-color:#191919;
+}
+#shopdropdown__2020 .shopdropdown-tab-active, #shopdropdownbottom__2020 .shopdropdown-tab-active {
+    color:#dfdfdf;
+    background-color:#222;
+}
+.communitydropdown-social {
+  display: none;
+}
+.community-dropdown-text  h4, #shopdropdown__2020 h4, .nav-profile-dropdown__2020 ul li h4  {
+  font-family: calibri;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.neofriendsOnline {
+  overflow: hidden !important;
+}
+.neofriendsOnline:hover {
+  overflow-x: auto;
+}
+/* Boards */
+#boardIndex, #boardList {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #222222;
+  border: none;
+}
+#boardTopic {
+  border-radius: 15px;
+  background-color: #222222;
+  border: none;
+}
+#boardTopic ul .topicNavTop {
+  padding: 20px;
+  border-bottom: 2px solid #191919;
+  color: #dfdfdf !important;
+}
+#boardTopic h1, .topicSubPreface-neoboards {
+  color: #dfdfdf;
+  font-family:
+}
+.topicCreator, .topicDate {
+  color: #839496;
+}
+#boardIndex ul li:nth-child(odd), #boardList ul li:nth-child(odd), #boardIndex ul li:nth-child(even), #boardList ul li:nth-child(even) {
+  background-color: #222;
+  color: #999;
+  border-bottom: 1px solid #191919;
+}
+#boardCreateTopic {
+   border-radius: 15px;
+   border: none;
+   background-color: #222;
+   color: #dfdfdf
+ }
+ #boardCreateTopic p {
+   color: #839496;
+ }
+#boardList ul .pageNav .boardPageButton, #boardTopic .pageNav .boardPageButton {
+  color: #dfdfdf;
+  background-color: transparent;
+  border: none;
+}
+#boardIndex ul li a, #boardList ul a, #boardList .breadcrumbs a, #boardTopic .breadcrumbs a {
+  color: #dfdfdf;
+}
+#boardList ul li a img {
+  border-radius: 10px;
+}
+#boardList ul .pageNav .boardPageButton-active, #boardTopic .pageNav .boardPageButton-active {
+  background-color: #121212;
+}
+#boardList ul .pageNav
+.topicReplyContainer table, #boardCreateTopic table {
+    border: 0px !important;
+    font-family: verdana;
+    font-size: 10px;
+    text-transform: lowercase;
+}
+.postAuthorPetIcon img {
+  border: 0px !important;
+  border-radius: 3px;
+}
+.boardPostByline {
+  background-color: #292929;
+  color: #dfdfdf;
+}
+div.replyTopicButton-top, input.topicReplySubmit, .topicCreateSubmit  {
+  background-color: #121212;
+  border: 0px;
+  font-family: calibri;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+div.replyTopicButton-top:hover, input.topicReplySubmit:hover, .topicCreateSubmit:hover {
+  color: white;
+  background-color: #191919;
+}
+div.topicReplyTitle, #boardCreateTopic h1 {
+  background-color: #121212;
+}
+div a span {
+  font-family: Calibri;
+  font-size: 15px;
+}
+.createTopicButton a {
+  background-color: #121212;
+  border: 0px;
+  color: #dfdfdf;
+  padding-bottom: 10px;
+}
+.createTopicButton a:hover {
+  background-color: #000;
+  color: #dfdfdf;
+}
+#boardIndex ul h3 {
+  background-color: #191919;
+  font-family: calibri;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #dfdfdf;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.topicReplyInput textarea {
+  background-color: #dfdfdf;
+}
+.reportButton-neoboards { 
+  border: 0px !important;
+  text-transform: uppercase;
+  font-size: 9px !important;
+  color: #999 !important;
+  background-color: transparent !important;
+  margin-bottom: 0px;
+  overflow: hidden; 
+}
+.reportButton-neoboards:hover {
+  background-color: transparent !important;
+  color: #dfdfdf !important;
+  transition: .3s; 
+}
+div.boardPost {
+  position: relative;
+}
+.postAuthorName, .postPetInfo h4 a {
+  color: #dfdfdf !important;
+} 
+.postAuthor, .postPet {
+  color: #839496;
+}
+.boardPostMessage {
+  padding: 20px;
+}
+.boardPostMessage img {
+  border-radius: 5px;
+}
+.boardPostMessage, .boardPostMessage font {
+  color: #c8c9cb;
+  font-family: calibri;
+  font-size: 14px;
+  line-height: 20px;
+}
+.boardPostMessage a, a:visited {
+  color: #2aa198;
+  text-decoration: none;
+}
+.boardPostMessage a:hover {
+  color: #0e9186;
+  transition: .3s;
+  text-decoration: none;
+}
+.reportButton-neoboards { 
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.neoBoardPenTitle {
+  display: none;
+}
+.neoboardPens {
+  margin-top: -10px;
+  font-size: 13px;
+  text-transform: lowercase;
+  color: #839496 !important;
+  max-width: 600px;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.neoboardPens img {
+  display: none;
+}
+.neoboardPens .neoboardPenLabel {
+  color: #839496
+}
+.boardDesc h4, .breadcrumbs a, .breadcrumbs a:visited {
+  color: #dfdfdf;
+  font-family: calibri;
+}
+.boardTopicTitle {
+  color: #235048;
+}
+.boardPageButton:hover {
+  background-color: #181818;
+  border: 1px solid #181818;
+  color: white !important;
+}
+#boardTopic ul li {
+  border-bottom: 2px solid #191919 !important;
+}
+.boardNavBottom {
+  border-top: 1px solid #191919;
+}
