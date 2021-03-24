@@ -452,3 +452,7 @@ div.boardPost {
 .boardNavBottom {
   border-top: 1px solid #191919;
 }
+.quote {
+  color: #dfdfdf;
+  background-color: 121212;;
+}
